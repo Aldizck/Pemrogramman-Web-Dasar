@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulir Perpu Kota Madiun</title>
+</head>
+<body>
+
+<form action="perpu.html" method="get">
+
+    Nama: 
+    <input type="text" name="nama" value="Nama Kamu" />
+    <br><br>
+
+    Password: 
+    <input type="password" name="password" />
+    <br><br>
+
+    Jenis Kelamin:
+    <br>
+    <input type="radio" name="jenis_kelamin" value="laki-laki" checked /> Laki - Laki
+    <br>
+    <input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan
+    <br><br>
+
+    Persyaratan:
+    <br>
+    <input type="checkbox" name="persyaratan_ktp" /> KTP
+    <br>
+    <input type="checkbox" name="persyaratan_domisili" checked /> Surat Domisili
+    <br>
+    <input type="checkbox" name="persyaratan_ijin" /> Ijin Usaha
+    <br><br>
+
+    Kecamatan:
+    <br>
+    <select name="kecamatan">
+        <option value="kec_manguharjo">Manguharjo</option>
+        <option value="kec_taman">Taman</option>
+        <option value="kec_kartoharjo" selected>Kartoharjo</option>
+    </select>
+    <br><br>
+
+    Detail Permohonan:
+    <br>
+    <textarea name="detail" rows="5" cols="20">Silahkan katakan detail permohonan anda...</textarea>
+    <br><br>
+
+    <input type="submit" value="Mulai Proses!" />
+
+</form>
+
+</body>
+</html>
